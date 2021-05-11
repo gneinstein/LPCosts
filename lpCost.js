@@ -20,6 +20,7 @@ function calculate() {
 
 function update() {
   document.getElementById("totalCost").innerText = Math.round(totalCost * 100)/100;
+  document.getElementById("cpa").innerText = cpa;
   document.getElementById("ioAmount").innerText = Math.round(ioAmount * 100)/100;
   document.getElementById("numLeads").innerText = Math.round(numLeads * 100)/100;
   document.getElementById("commissionCost").innerText = Math.round(commission * 100)/100;
