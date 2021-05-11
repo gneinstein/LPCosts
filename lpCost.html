@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>List Purchase Tool</title>
+</head>
+<body>
+
+<h1>List Purchase Cost Tool</h1>
+<div id="inputs">
+  Enter Total Cost (incl commission): <input type="text" id="totalCostInput"></input>
+  <br><br>
+  Select Vendor: <select name="vendor" id="vendor">
+    <option value="null"></option>
+    <option value="0.36">BA</option>
+    <option value="0.75">GA</option>
+    <option value="0.36">OIS</option>
+    <option value="0.5">PACtion</option>
+  </select>
+  <br><br>
+  Does the client have commission? <input type="checkbox" id="commissionInput">
+  <br><br>
+  <button id="calcButton">Calculate</button>
+  <button id="resetButton">Reset</button>
+</div>
+
+<div id="outputs">
+  Total Cost: $<span id="totalCost"></span><br><br>
+  IO Amount: $<span id="ioAmount"></span><br><br>
+  Leads Needed: <span id="numLeads"></span><br><br>
+  Commission Cost: $<span id="commissionCost"></span><br><br>
+  BriteVerify Cost: $<span id="bv"></span><br><br>
+  <button id="goBack">Reset</button>
+</div>
+<script src="./lpCost.js"></script>
+</body>
+</html>
