@@ -67,4 +67,5 @@ function getBV() {
   ioAmount = netCost - tempBV;
   numLeads = ioAmount / cpa;
   briteVerify = numLeads * tempCost;
+	console.log("bv done");
 }
