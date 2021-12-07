@@ -58,8 +58,10 @@ function getNet() {
 
 function getBV() {
   let tempNames = netCost / cpa;
-  let tempBV = tempNames * .0065;
+	verifyCost = document.getElementByID("verify").value;
+	let tempCost = verifyCost + 0.0005);
+	let tempBV = tempNames * tempCost;
   ioAmount = netCost - tempBV;
   numLeads = ioAmount / cpa;
-  briteVerify = numLeads * .0065;
+  briteVerify = numLeads * tempCost;
 }
