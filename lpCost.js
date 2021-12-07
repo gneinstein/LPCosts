@@ -1,6 +1,7 @@
 var totalCost = 0;
 var commission = 0;
 var verifyCost = 0;
+var briteVerify = 0;
 var netCost = 0;
 var ioAmount = 0;
 var cpa = 0;
