@@ -58,7 +58,7 @@ function getNet() {
 
 function getBV() {
   let tempNames = netCost / cpa;
-	verifyCost = document.getElementByID("verify").value;
+	verifyCost = document.getElementById("verify").value;
 	let tempCost = verifyCost + 0.0005;
 	let tempBV = tempNames * tempCost;
   ioAmount = netCost - tempBV;
