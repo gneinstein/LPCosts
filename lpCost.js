@@ -61,6 +61,9 @@ function getBV() {
 	verifyCost = document.getElementById("verify").value;
 	let tempCost = verifyCost + 0.0005;
 	let tempBV = tempNames * tempCost;
+	console.log(verifyCost);
+	console.log(tempCost);
+	console.log(tempBV);
   ioAmount = netCost - tempBV;
   numLeads = ioAmount / cpa;
   briteVerify = numLeads * tempCost;
